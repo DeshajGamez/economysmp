@@ -1,0 +1,24 @@
+name: VaultEconomy
+version: ${project.version}
+main: me.kodysimpson.vaulteconomy.VaultEconomy
+api-version: 1.13
+commands:
+  economy:
+      description: Check your balance
+      usage: /economy
+  withdraw:
+      description: Withdraw your balance
+      usage: /withdraw
+  gamble:
+      description: Gamble your hearts
+      usage: /gamble
+  economyshop:
+      description: The shop for your economy
+      usage: /economyshop
+  author:
+      description: The author credit
+      usage: /author
+
+
+depend:
+  - Vault
